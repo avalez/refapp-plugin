@@ -1,0 +1,8 @@
+<html>
+    <head>
+        <title>Example Refapp Plugin</title>
+    </head>
+    <body>
+        <span>Hello World!</span>
+    </body>
+</html>
