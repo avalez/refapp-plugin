@@ -26,6 +26,7 @@ public class ExampleServlet extends HttpServlet
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
     {
         final Map<String, Object> context = new HashMap<String, Object>();
+        res.setContentType("text/html;charset=utf-8");
         renderer.render(TEMPLATE, context, res.getWriter());
     }
 }

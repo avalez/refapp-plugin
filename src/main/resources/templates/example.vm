@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="decorator" content="atl.admin" />
         $webResourceManager.requireResource("com.example.refapp-plugin:plugin-common")
         <title>Example Refapp Plugin</title>
 
