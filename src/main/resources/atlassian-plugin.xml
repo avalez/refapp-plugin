@@ -5,7 +5,15 @@
         <vendor name="${project.organization.name}" url="${project.organization.url}" />
     </plugin-info>
 
+    <web-item key="myLink" section="index.links" weight="40" application="refapp">
+        <label key="Hello World Link"/>
+        <link linkId="myLinkId">/plugins/servlet/test</link>
+    </web-item>
+
     <servlet name="refapp-plugin" class="com.example.ExampleServlet" key="test">
         <url-pattern>/test</url-pattern>
     </servlet>
+
+    <component-import key="velocity-renderer" interface="com.atlassian.templaterenderer.TemplateRenderer" />
+
 </atlassian-plugin>
