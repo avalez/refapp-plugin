@@ -1,8 +1,15 @@
 <html>
     <head>
+        $webResourceManager.requireResource("com.example.refapp-plugin:plugin-common")
         <title>Example Refapp Plugin</title>
+
+        <script type="text/javascript">
+            AJS.$(Plugin.init);
+        </script>
+
     </head>
     <body>
-        <span>Hello World!</span>
+        <div id="main-container">
+        </div>
     </body>
 </html>

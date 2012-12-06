@@ -14,6 +14,19 @@
         <url-pattern>/test</url-pattern>
     </servlet>
 
+    <web-resource key="plugin-common" name="Plugin JavaScript/CSS Common Resources">
+        <transformation extension="soy">
+            <transformer key="soyTransformer" />
+        </transformation>
+        <resource type="download" name="rekall.css" location="css/plugin.css" />
+        
+        <resource type="download" name="PluginController.js" location="js/ui/PluginController.js" />
+        <resource type="download" name="PluginModel.js" location="js/ui/PluginModel.js" />
+        <resource type="download" name="PluginView.soy.js" location="templates/PluginView.soy" />
+        <resource type="download" name="TriangulationView.js" location="js/PluginView.js" />
+        <dependency>com.atlassian.auiplugin:ajs</dependency> 
+    </web-resource>
+
     <component-import key="velocity-renderer" interface="com.atlassian.templaterenderer.TemplateRenderer" />
 
 </atlassian-plugin>
