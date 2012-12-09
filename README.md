@@ -3,6 +3,8 @@ refapp-plugin
 
 Atlassian RefApp Example Plugin
 
+FAILED: https://answers.atlassian.com/questions/113773/soy-templates-with-refapp
+
 See also
 - https://developer.atlassian.com/display/DOCS/Creating+an+Admin+Configuration+Form - refapp plugin
 - https://developer.atlassian.com/display/ATR/Using+the+Atlassian+Template+Renderer
